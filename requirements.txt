@@ -1,6 +1,6 @@
 Flask==3.0.0
 Flask-CORS==4.0.0
 transformers==4.35.0
-torch==2.1.0
-torchvision==0.16.0
+torch==2.5.1
+torchvision==0.20.1
 Pillow==10.1.0
