@@ -92,7 +92,7 @@ def analyze_image():
         return jsonify({'error': 'Analysis failed'}), 500
 
 if __name__ == '__main__':
-    PORT = int(os.environ.get('PORT', 5000))
+    PORT = int(os.environ.get('PORT', 7860))
     print("\n" + "=" * 70)
     print("DetectAI API Server")
     print("=" * 70)
